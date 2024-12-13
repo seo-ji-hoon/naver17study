@@ -1,0 +1,15 @@
+package day1212;
+
+public class book94 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int charCode='A';
+			
+		if((65<=charCode)&(charCode<=90))
+		{
+			System.out.println("대문자이군요");
+		}
+	}
+
+}

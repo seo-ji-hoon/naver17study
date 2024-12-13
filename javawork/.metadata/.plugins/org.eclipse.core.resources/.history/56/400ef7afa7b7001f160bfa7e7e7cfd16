@@ -1,0 +1,24 @@
+package day1211;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char c=65;
+		String name="cute sora";
+		
+		int num1='a';
+		int num2=25;
+		
+		
+		System.out.println(c);
+		System.out.println(name);
+		System.out.println("합산:"+(num1+num2));
+		System.out.printf("%s\n",num1);
+		System.out.printf("%d\n",num1);
+		
+		
+	}
+
+}

@@ -1,0 +1,61 @@
+package day1212;
+
+import java.util.Scanner;
+
+public class test1212 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		/*
+		 *
+		 *가지고잇는돈은 만원
+		 *
+		 *cony의 가격을 입력을 받아. 가격도 마이너스가되면안됨.
+		 *내가 사고싶은 개수를 입력해 0보다 작은면 안됨.
+		 *
+		 *그랫을때 살수있는지 없는지?!!!!!!
+		 *주문이 체결됬습니당.
+		 *금액이 부족합니다.
+		 */
+		
+		
+		//가지고있는돈 만원
+		int money,cony,count,total; //int 숫자형 정수
+		money=10000;
+		//cony가격입력받기
+		System.out.println("cony가격을 입력해주세요");
+		cony=sc.nextInt();
+		//가격체크 마이너스 금액이 들어오면안됨
+			
+		if(cony<0)
+		{
+			System.out.println("값의 범위를 벗어났습니다.");
+			return; //현재 매서드를 종료합니다.
+		}
+		
+		//내가 사고싶은개수 입력받기
+		System.out.println("수량 입력");
+		count=sc.nextInt();
+		
+		//사고싶은 개수 마이너스 개수 들어오면 안됨
+		if(count<0)
+		{
+			System.out.println("값의 범위를 벗어났습니다.");
+			return; //현재 매서드를 종료합니다.
+		}
+		
+		//cony가격,사고싶은개수 계산 출력
+		//입력받은 갯수,사고싶은갯수,전체금액
+		total=cony*count;
+		System.out.println("가지고있는돈"+money+"cony 가격 : "+cony+"수량:"+count+"총금액:"+total);
+		
+		// 가지고있는돈이랑 코니 총금액으로 살수있는지 없는지 출력
+		
+		if(money>=cony)
+
+			
+	}
+
+}
