@@ -53,7 +53,6 @@ public class test1212 {
 			System.out.println("살수있다.");
 		else // 그러지않으면 살수없다.
 			System.out.println("살수없다.");
-
 	}
 
 }

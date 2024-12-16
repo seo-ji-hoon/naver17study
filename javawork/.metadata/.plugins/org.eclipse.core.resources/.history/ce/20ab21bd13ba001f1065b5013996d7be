@@ -1,0 +1,47 @@
+package jihoon_test;
+
+import java.nio.file.spi.FileSystemProvider;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Day1214_6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);	
+
+		int number=10,add=5;
+		
+		number=number+add;
+		
+		number=number+add;
+		
+		add=add+add;
+		
+		System.out.printf("number : 20 , add : 10, number : %d , add : %d ",number,add);
+	
+		if (number>10) {
+			System.out.println("HELLO");
+			
+			add = 1;
+		}
+		for (int i=add; i<=add+1; i++) {
+			System.out.println("opo");
+		}
+		
+		int price=0;
+		String name;
+		name = sc.nextLine();
+		
+		switch (name) {
+		
+			case "테슬라": 			
+			price=400;
+	
+			default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+		
+		
+	}
+
+}
