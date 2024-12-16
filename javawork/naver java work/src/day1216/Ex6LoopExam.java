@@ -18,15 +18,43 @@ public class Ex6LoopExam {
 		 * 
 		 */
 		String str;
-		int high=0,low=0,num=0;
+		int upperCount=0,lowerCount=0,numberCount=0;
 		
-		System.out.println("문자를 입력하세요");
+		System.out.println("문자열을 입력하세요");
 		str=sc.nextLine();
 		
-		for(int i=1; i<=5; i++) {
+		for(int i=0;i<str.length();i++) {
 			
-			System.out.println(i);
-		}
-	}
+			char ch=str.charAt(i);
+//			if(ch>='A' && ch<='Z')
+//				upperCount++;
+//			
+//			else if (ch>='a' && ch<='z') {
+//				lowerCount++;
+//			}
+//			
+//			else if (ch>='0' && ch<='9') {
+//				numberCount++;
+//			}
+			
+			//아스키코드로 했을때
+			if(ch>=65 && ch<=90)
+				upperCount++;
+			
+			else if (ch>=97 && ch<=122) {
+				lowerCount++;
+			}
+			
+			else if (ch>=48 && ch<=57) {
+				numberCount++;
+			}
 
+		}
+		
+		System.out.println("대문자 갯수 : "+upperCount);
+		System.out.println("소문자 갯수 : "+lowerCount);
+		System.out.println("숫자 갯수 : "+numberCount);
+		
+		}
+		
 }
