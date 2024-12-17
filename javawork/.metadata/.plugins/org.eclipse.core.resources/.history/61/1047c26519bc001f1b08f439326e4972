@@ -1,0 +1,12 @@
+package day1217;
+
+public class Ex3Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//int 배열 변수 선언
+		int []arr1;
+	}
+
+}
