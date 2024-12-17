@@ -1,0 +1,18 @@
+package day1217;
+
+import java.util.Scanner;
+
+public class Ex11ArraySearch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		String []member= {"강호동","김태희","손미나","이지혜","송중기",
+				"김사랑","손흥민","박미나","강리나","김신"}
+		
+	
+	
+	}
+
+}

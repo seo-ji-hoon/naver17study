@@ -25,7 +25,7 @@ public class Ex6LoopExam {
 		
 		for(int i=0;i<str.length();i++) {
 			
-			char ch=str.charAt(i);
+			char ch=str.charAt(i); 
 //			if(ch>='A' && ch<='Z')
 //				upperCount++;
 //			
