@@ -1,0 +1,26 @@
+package jihoon_test;
+
+import java.util.Scanner;
+
+public class Day1218ArrayTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		/*
+		 * 인원수를 입력후 인원수 만큼 이름과 자바,스프링 두점수를 입력후
+		 * 총점, 평균,등수,등급을 구하시오
+		 * 
+		 */
+		
+		int []inwon;
+		int []java,spring,sum,rank;
+		String []name,grade;
+		double []avg;
+		
+		System.out.println("인원수를 입력하세요.");
+		inwon=Integer.parseInt(sc.nextLine());
+		
+	}
+
+}

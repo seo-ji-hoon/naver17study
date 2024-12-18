@@ -1,0 +1,20 @@
+package jihoon_test;
+
+public class Day1218ArrayTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char [] ch;
+		
+		ch=new char[4];
+		
+		ch[0]='a';
+		ch[1]='b';
+		ch[2]='c';
+		ch[3]='d';
+	
+		
+	}
+
+}

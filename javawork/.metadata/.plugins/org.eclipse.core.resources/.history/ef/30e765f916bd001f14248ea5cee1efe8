@@ -1,0 +1,15 @@
+package day1218;
+
+public class Car223 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String company="현대자동차";
+		String company="그랜져";
+		String company="검정";
+		
+	}
+
+}

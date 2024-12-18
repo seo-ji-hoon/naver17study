@@ -1,0 +1,19 @@
+package day1218;
+
+class Car2 {
+	
+	//필드선언
+	String model;
+	boolean start;
+	int speed;d
+	
+}
+
+public class Book219 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -33,20 +33,25 @@ public class Ex1ArraySwitch {
 		
 		avg=new double[inwon];
 		
-		//입력시 총점,평균구하기
+		
 		for(int i=0;i<inwon;i++) {
 			
+			//이름 입력받기
 			System.out.println(i+"번째 이름입력");
 			name[i]=sc.nextLine();
+			
+			// 자바,스프링 점수 입력받기
 			System.out.println(i+"번째 자바점수와 스피링 점수 입력");
 			java[i]=Integer.parseInt(sc.nextLine());
 			spring[i]=Integer.parseInt(sc.nextLine());
 			
+			//총점수 , 평균 구하기
 			sum[i]=java[i]+spring[i]; //총점수
 			avg[i]=sum[i]/2.0; //평균
 			System.out.println();
 			
 		}	
+		
 		//등수
 		for(int i=0;i<inwon;i++) {
 			

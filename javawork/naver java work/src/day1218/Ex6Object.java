@@ -12,6 +12,8 @@ public class Ex6Object {
 		System.out.println("static 변수는 접근가능 : "+x+","+y);
 	}
 	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
