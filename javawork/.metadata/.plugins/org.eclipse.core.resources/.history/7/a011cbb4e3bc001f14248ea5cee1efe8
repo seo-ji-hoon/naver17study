@@ -1,0 +1,10 @@
+package day1218;
+
+public class Ex3Array2Cha {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//2차원 배열은 행과 열로 할당(열갯수는 행마다 다를수있다.)
+	}
+
+}

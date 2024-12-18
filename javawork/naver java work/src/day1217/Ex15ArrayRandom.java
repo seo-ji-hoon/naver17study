@@ -17,7 +17,20 @@ public class Ex15ArrayRandom {
 			
 			numbers[i]=(int)(Math.random()*50)+1;
 			
-			//이전에 발생한 값이랑 같을 경우 다시 구하기 -중복처리 로직 추가		
+			//이전에 발생한 값이랑 같을 경우 다시 구하기 -중복처리 로직 추가
+			Loop: //레이블 생성
+				
+			for(int j=0; j<i; j++) {
+				
+				if(numbers[i]==numbers[j]) {
+					
+					i--;
+					//break; //방법1) 레이블이 없을때
+					continue Loop; //방법2) 16번 i++로 이동
+					
+				}
+			}
+						
 		}
 		
 		//정렬

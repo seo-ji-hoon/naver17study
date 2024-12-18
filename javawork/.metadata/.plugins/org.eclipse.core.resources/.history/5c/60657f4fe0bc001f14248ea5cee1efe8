@@ -1,0 +1,23 @@
+package day1218;
+
+import java.util.Scanner;
+
+public class Ex2Lotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);	
+		
+		int money;
+		int [] lotto=new int[6];
+		Random r=new Random();
+		
+		//금액입력
+		System.out.println("금액을 입력해주세요");
+		
+		//1000원 미만이면 종료
+		
+		//금액만큼 로또 숫자 발생후 출력 (오름차순)
+	}
+
+}
