@@ -1,0 +1,27 @@
+package day1219;
+
+//
+public class Student {
+	
+	private String stuName;
+	public String getStuName() {
+		return stuName;
+	}
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	public String getStuAddress() {
+		return stuAddress;
+	}
+	public void setStuAddress(String stuAddress) {
+		this.stuAddress = stuAddress;
+	}
+	
+	//private -> 접근할수없다.
+	private String stuAddress;
+	private String stuBlood;
+	private int stuBirthYear;
+	private int stuScore;
+	
+	
+}

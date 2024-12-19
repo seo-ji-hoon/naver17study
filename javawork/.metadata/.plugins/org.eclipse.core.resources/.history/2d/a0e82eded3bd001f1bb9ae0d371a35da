@@ -1,0 +1,12 @@
+package day1219;
+
+public class Ex10MycarArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mycar my1=new Mycar();
+		System.out.println(my1);
+
+	}
+
+}

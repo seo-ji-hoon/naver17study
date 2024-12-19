@@ -1,0 +1,45 @@
+package day1219;
+
+//
+public class Student {
+	
+	//private -> 접근할수없다.
+		private String stuAddress;
+		private String stuName;
+		private String stuBlood;
+		private int stuBirthYear;
+		private int stuScore;
+	
+	
+	public String getStuName() {
+		return stuName;
+	}
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	public String getStuAddress() {
+		return stuAddress;
+	}
+	public void setStuAddress(String stuAddress) {
+		this.stuAddress = stuAddress;
+	}
+	
+	//setBlood에 대한 setter & getter
+	
+	private String stuBlood;
+	public String getstuBlood() {
+		return stuBlood;
+	}
+	public void setStuBlood(String stuBlood) {
+		this.stuBlood = stuBlood;
+	}
+	
+	//stuBirthYear에 대한 setter & getter
+	
+	//stuScore에 대한 setter & getter
+	
+	
+
+	
+	
+}

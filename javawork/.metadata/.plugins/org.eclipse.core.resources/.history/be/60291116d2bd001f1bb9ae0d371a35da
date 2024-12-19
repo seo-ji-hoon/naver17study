@@ -1,0 +1,11 @@
+package day1219;
+
+public class Mycar {
+	
+	private String carName;
+	private String carPrice;
+	private String guipDay;
+	
+	
+	
+}

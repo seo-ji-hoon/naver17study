@@ -19,6 +19,7 @@ public class Ex13For {
 		 * 
 		 */
 		
+		
 		int count1=0,count2=0,sum=0,age; //40세이상,40세미만,입력받을변수
 		double avg; //평균 변수
 		

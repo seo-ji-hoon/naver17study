@@ -1,0 +1,42 @@
+package day1219;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class MyCar {
+
+	private String carName;
+	private String guipDay;
+	private String carColor;
+
+	private int carPrice;
+
+	public MyCar() {
+		//생성되는 시간을 guipDay 구해서 넣어보자
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm");
+		guipDay=sdf.format(new Date());
+
+		carColor="흰색";
+
+	}
+
+	public MyCar(String carName, String carColor, int carPrice) {
+
+		//생성되는 시간을 guipDay 구해서 넣어보자
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm");
+		guipDay=sdf.format(new Date());
+		
+		this.carName = carName;
+		this.carColor = carColor;
+		this.carPrice = carPrice;
+	}
+
+	@Override
+	public String toString() {
+		return "MyCar [carName=" + carName + ", \n guipDay=" + guipDay + ", carColor=" + carColor + ", carPrice="
+				+ carPrice + "]";
+	}
+
+	
+
+}

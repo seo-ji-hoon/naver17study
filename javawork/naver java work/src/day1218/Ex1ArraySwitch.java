@@ -43,6 +43,7 @@ public class Ex1ArraySwitch {
 			// 자바,스프링 점수 입력받기
 			System.out.println(i+"번째 자바점수와 스피링 점수 입력");
 			java[i]=Integer.parseInt(sc.nextLine());
+			
 			spring[i]=Integer.parseInt(sc.nextLine());
 			
 			//총점수 , 평균 구하기

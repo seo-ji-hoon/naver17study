@@ -1,0 +1,14 @@
+package day1219;
+
+public class Ex5CallBy {
+/*
+ * CallByValue : 값만 전달(기본형,String)
+ * CallByReference : 주소가 전달 (모든 객체,배열타입)
+ * 
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
