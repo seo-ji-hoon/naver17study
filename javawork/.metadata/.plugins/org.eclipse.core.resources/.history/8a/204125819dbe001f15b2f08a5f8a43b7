@@ -1,0 +1,21 @@
+package day1220;
+
+//부모
+abstract class Test1 {
+	
+	abstract public void play();
+}
+
+class Test2 extends Test1 {
+	
+	
+}
+
+public class Ex8Abstract {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

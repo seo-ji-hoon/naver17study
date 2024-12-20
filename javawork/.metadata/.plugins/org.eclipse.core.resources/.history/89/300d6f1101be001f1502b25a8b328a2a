@@ -1,0 +1,30 @@
+package day1219;
+
+public class Sora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=1;
+		
+		Sawon sawon = new Sawon();
+		Sawon sawon1 = new Sawon("문자열","직급",50);
+		Sawon sawon2 = new Sawon("이름","직급");
+
+		sawon.getSawonName();
+		sawon1.getSawonName();
+		sawon2.getSawonName();
+		
+		System.out.println(sawon.getSawonName());
+		System.out.println(sawon1.getSawonName());
+		System.out.println(sawon2.getSawonName());
+		
+		sawon.setSawonName("지훈돼지");
+
+		System.out.println(sawon.getSawonName());
+		
+		sawon.getPosition();
+		
+	}
+
+}

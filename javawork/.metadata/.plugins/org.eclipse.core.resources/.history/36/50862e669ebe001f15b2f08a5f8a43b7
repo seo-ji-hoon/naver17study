@@ -1,0 +1,30 @@
+package day1220;
+
+//추상화 부모
+abstract class Test1 {
+	
+	abstract public void play();
+}
+
+//추상화 상속1
+abstract class Test2 extends Test1 {
+	
+	abstract public void job();
+}
+
+//상속2
+class Test3 extends Test2 {
+	
+	@Override
+	
+}
+
+
+public class Ex8Abstract {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

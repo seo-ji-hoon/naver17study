@@ -1,0 +1,21 @@
+package day1220;
+
+class Parent1 {
+	
+	public void provess() {
+		System.out.println("기본 작업을 한다.");
+	}
+}
+/////////////////////////////////////////////////
+class My1 extends Parent1{
+	
+	
+}
+public class Ex5Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

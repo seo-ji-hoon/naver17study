@@ -11,6 +11,8 @@ public class MyCar {
 
 	private int carPrice;
 
+	
+	//생성자
 	public MyCar() {
 		//생성되는 시간을 guipDay 구해서 넣어보자
 		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm");
@@ -20,6 +22,8 @@ public class MyCar {
 
 	}
 
+	
+	//생성자
 	public MyCar(String carName,int carPrice,String carColor) {
 
 		//생성되는 시간을 guipDay 구해서 넣어보자

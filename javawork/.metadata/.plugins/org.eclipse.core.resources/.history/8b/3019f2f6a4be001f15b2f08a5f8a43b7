@@ -1,0 +1,15 @@
+package day1220;
+
+interface InterB {
+	
+	int SPEED=100;
+}
+
+public class Ex10Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

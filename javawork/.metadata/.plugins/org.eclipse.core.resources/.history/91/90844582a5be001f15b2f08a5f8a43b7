@@ -1,0 +1,25 @@
+package day1220;
+
+interface InterB {
+	
+	int SPEED=100; //final 상수
+	
+	public void speedWrite();
+	public void speedUp(int speed);
+	public void speedDown(int speed);
+}
+
+class Car implements InterB {
+	
+	
+	
+}
+
+public class Ex10Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package day1220;
+
+import day1220_2.DbServerSystem;
+
+class DataProcess extends DbServerSystem {
+	
+	private String sql;
+	
+	public DataProcess() {
+		sql="select";
+	}
+}
+
+public class Ex3Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

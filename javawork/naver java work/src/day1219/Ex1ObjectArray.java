@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex1ObjectArray {	
 	
 	Student []stuArray=new Student[3]; //초기값은 null
+	//클래스 타입 Student에 
 	
 	public void inputData() {
 		Scanner sc=new Scanner(System.in);
@@ -49,7 +50,7 @@ public class Ex1ObjectArray {
 
 	
 	
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		Ex1ObjectArray ex1=new Ex1ObjectArray();
