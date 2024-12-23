@@ -1,0 +1,30 @@
+package jihoon_test;
+
+import java.util.Scanner;
+
+public class JihoonTest1220 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+	
+		int age=15;
+		String gender = "남성";
+		
+		if(age>=20) {
+			
+			if(gender.equals("남성")) {
+				System.out.println("성인 남성입니다.");
+			}
+			else {
+				System.out.println("성인 여성입니다.");
+			}
+		}
+		else {
+			System.out.println("미성년자입니다.");
+		}
+		
+		
+	}
+}
+

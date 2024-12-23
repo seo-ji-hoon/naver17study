@@ -1,0 +1,22 @@
+package day1223;
+
+import javax.swing.JFrame;
+
+class MyFrame extends JFrame {
+	
+	public MyFrame() {
+		// TODO Auto-generated constructor stub
+		super(); //생략가능
+		
+		this.setBounds(300, 100, 300, 300); //x,y,width,height
+	}
+}
+
+public class Ex6JFrame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

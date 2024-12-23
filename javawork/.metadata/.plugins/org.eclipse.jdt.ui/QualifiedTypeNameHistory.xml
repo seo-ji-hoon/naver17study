@@ -7,9 +7,7 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="day1218.Apple"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
     <fullyQualifiedTypeName name="day1218.Car"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="day1218.Car223"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -22,4 +20,23 @@
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="day1219.MyCar"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="day1220.SubObj2"/>
+    <fullyQualifiedTypeName name="day1220.SubObj22"/>
+    <fullyQualifiedTypeName name="day1220.DataProcess"/>
+    <fullyQualifiedTypeName name="day1220_2.DbServerSystem"/>
+    <fullyQualifiedTypeName name="day1220_2.Apple"/>
+    <fullyQualifiedTypeName name="day1220.Orange"/>
+    <fullyQualifiedTypeName name="java.lang.WrongThreadException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="day1220.Test3"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="day1220.Test1"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="day1220.InterA"/>
+    <fullyQualifiedTypeName name="day1220.SubInter"/>
+    <fullyQualifiedTypeName name="day1220.InterB"/>
 </qualifiedTypeNameHistroy>

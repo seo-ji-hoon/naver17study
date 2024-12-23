@@ -1,0 +1,31 @@
+package day1223;
+
+interface InterA {
+	
+	public void study();
+		
+}
+
+//인터페이스끼리의 상속은 extends
+interface InterB extends InterA {
+	
+	public void play(); 
+		
+}
+
+//클래스가 인터페이스 구현시 
+class MyInter implements InterB {
+	
+	
+}
+
+
+
+public class Ex1InterfaceInheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

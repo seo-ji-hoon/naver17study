@@ -1,0 +1,23 @@
+package day1223;
+
+abstract class AbstSawon {
+	
+	abstract public void addSawon();
+	abstract public void removeSawon();
+	
+}
+///////////////////////////////////////////
+interface InterSales {
+	
+	public void insertSangpum();
+	public void selecttSangpum();
+	
+}
+public class Ex4InnerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
