@@ -1,0 +1,16 @@
+package day1223;
+
+import java.util.Scanner;
+
+public class Ex8Exception {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		int birthYear,age;
+		
+		System.out.println("태어난년도는 ? ");
+	}
+
+}

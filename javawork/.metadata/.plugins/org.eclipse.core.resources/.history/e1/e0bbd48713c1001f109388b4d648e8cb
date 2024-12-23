@@ -1,0 +1,33 @@
+package jihoon_test;
+
+class Tv {
+	
+	//Tv의 속성 (멤버변수)
+	String color;
+	boolean power;
+	int channel;
+	
+	//Tv의 기능
+	void power() {
+		power =! power;
+	}
+	void channellUp() {
+		
+		++channel;
+		
+	}
+	
+	void channel
+	
+	
+}
+
+
+public class TvTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
