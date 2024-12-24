@@ -1,0 +1,33 @@
+package day1224;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Ex6Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> set1=new HashSet<String>();
+		Set<String> set2=new TreeSet<String>();
+		
+		set1.add("카리나");
+		set1.add("아이유");
+		set1.add("에스파");
+		set1.add("아이브");
+		
+		set2.add("카리나");
+		set2.add("아이유");
+		set2.add("에스파");
+		set2.add("아이브");
+		
+		System.out.println("set1 의 갯수 : "+set1.size());
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package day1224;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Ex11ListVector {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> list1=Arrays.asList("장미꽃","국화꽃","안개꽃","다알리아");
+	}
+
+}

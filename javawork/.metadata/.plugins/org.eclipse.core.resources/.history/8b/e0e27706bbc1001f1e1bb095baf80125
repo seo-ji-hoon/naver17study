@@ -1,0 +1,22 @@
+package day1224;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Ex6Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> set1=new HashSet<String>();
+		Set<String> set2=new TreeSet<String>();
+		
+		set1.add("카리나");
+		
+		
+		
+		
+
+	}
+
+}

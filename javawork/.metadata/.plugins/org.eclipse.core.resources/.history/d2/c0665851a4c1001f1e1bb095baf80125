@@ -1,0 +1,24 @@
+package day1224;
+
+import java.io.File;
+
+public class Ex2File {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file1=new File("c:/naver1210/score.txt");
+		File file2=new File("c:/naver1210");
+		System.out.println(file1.length()); //글자길이 - byte 단위로 나타낸것.
+		System.out.println(file1.canExecute());//실행권한 => true
+		System.out.println(file1.canRead());//읽기 => true
+		System.out.println(file1.canWrite());//쓰기 => true
+		
+		System.out.println(file1.exists());//파일이 존재하면 => true
+		System.out.println(file1.isDirectory());//false => 디렉토리인가?
+		System.out.println(file2.isDirectory());//true => 디렉토리인가?
+		
+		
+		
+	}
+
+}

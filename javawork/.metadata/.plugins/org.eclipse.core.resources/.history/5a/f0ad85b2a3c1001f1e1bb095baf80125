@@ -1,0 +1,14 @@
+package day1224;
+
+import java.io.File;
+
+public class Ex2File {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file1=new File("c:/naver1210/score.txt");
+		System.out.println(file1.length());//파일에 길이를 byte단위로 나타낸것.
+		
+	}
+
+}
