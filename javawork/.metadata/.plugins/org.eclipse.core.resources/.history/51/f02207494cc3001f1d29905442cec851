@@ -1,0 +1,17 @@
+package day1226;
+
+public class Ex3JTableSawon {
+	
+	public public Ex3JTableSawon() {
+		// TODO Auto-generated constructor stub
+	}() {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Ex3JTableSawon();
+	}
+
+}

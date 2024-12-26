@@ -9,6 +9,7 @@ public class Ex7SetLotto {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
+		
 		int money;
 		
 		System.out.println("로또를 구입할 금액을 입력하세요");

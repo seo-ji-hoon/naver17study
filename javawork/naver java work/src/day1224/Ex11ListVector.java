@@ -14,6 +14,7 @@ public class Ex11ListVector {
 		System.out.println("List2의 크기"+list2.size());
 		System.out.println();
 		
+		
 		//list1 출력
 		System.out.println("list1 출력");
 		for(String s:list1) {
@@ -30,6 +31,7 @@ public class Ex11ListVector {
 		for(int n:list2) {
 			
 			System.out.print(n+" ");
+			
 		}
 		
 		

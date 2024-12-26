@@ -34,7 +34,9 @@ public class Ex10ListVector {
 		System.out.println("출력방법 1");
 		
 		for(String s:list2) {
+			
 			System.out.print(s+" ");
+			
 		}
 		System.out.println();
 		
