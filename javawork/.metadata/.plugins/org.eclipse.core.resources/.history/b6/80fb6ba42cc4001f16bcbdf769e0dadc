@@ -1,0 +1,22 @@
+package day1227;
+
+//Book 704
+@FunctionalInterface
+interface Workable {
+	
+	void work(String name, String job);
+}
+
+interface Speakable {
+	
+	void speak(String content);
+}
+
+public class Book704 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
