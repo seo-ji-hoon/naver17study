@@ -94,8 +94,9 @@ public class Ex5TableStudent extends JFrame{
 					data[i][1]=String.valueOf(s.getKor());
 					data[i][2]=String.valueOf(s.getEng());
 					
-					int sum=s.getKor()+s.getEng();
-					double avg=sum/2.0;
+					int sum=s.getKor()+s.getEng(); //총점
+					double avg=sum/2.0; //평균
+					
 					data[i][3]=String.valueOf(sum);
 					data[i][4]=String.valueOf(avg);
 					
