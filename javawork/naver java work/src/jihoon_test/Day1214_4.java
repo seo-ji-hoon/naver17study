@@ -26,22 +26,18 @@ public class Day1214_4 {
 		
 		System.out.println("숫자입력해라");
 		n=sc.nextInt();
-		
-		//i는 '1'이고; 1이 9보다 작거나 같을떄; 1이 증가; 
-		for(int i=1; i<=9 ; i++) {
+
+		for(int i=1; i<=9; i++) {
 			
-			// i*n 결과값을 total로 변수 선언
-			int total=i*n;
+			int total;
+			total=n*i;
 			
-			//만약에 total이 30보다 크거나 같을때인것만 출력
-			if (total>=30) 
-			{
-			
-				System.out.printf("%d x %d = %d \n",n,i,total);
+			if(total>=30) {
+				
+				System.out.println(n+"x"+i+"="+total);
 			}
-		
+			
 		}
-		
 		
 		
 		

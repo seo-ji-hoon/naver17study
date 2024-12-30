@@ -21,6 +21,8 @@ public class Ex10Throws {
 		System.out.println("숫자2 입력");
 		String s2=sc.nextLine();
 		
+
+		
 		try {
 			
 		sum(s1,s2);

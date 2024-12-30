@@ -34,7 +34,6 @@ public class Ex3Lambda {
 		// TODO Auto-generated method stub
 		
 		Ex3Lambda ex3=new Ex3Lambda();//호출
-		
 		ex3.sawon1.sawonAdd("홍길동");
 		ex3.sawon1.sawonAdd("이영자");
 		

@@ -8,7 +8,6 @@ public class Day1214_5 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);	
 
-	
 	/*
 	 * 4. 곱한 값이 30인 경우 출력 멈추기
 	 * 
