@@ -257,3 +257,14 @@ DELETE FROM FOOD WHERE FOODNUM=300; -- 아무도 주문을 예약하지 않았�
 DROP TABLE FOOD; -- <삭제가 불가함.> -> 자식테이블을 먼저 삭제해야 부모테이블도 삭제가 가능함
 
 
+
+--BOOKING 을 먼저 제거후 FOOD 제거 - 외부키를 서로 연결되어 있으므로
+DROP TABLE BOOKING;
+DROP TABLE FOOD;
+
+--SAWON 테이블도 일단 삭제
+DROP TABLE SAWON;
+
+--시퀀스도 일단 모두 삭제
+DROP SEQUENCE SEQ_FOOD;
+DROP SEQUENCE SEQ1;
