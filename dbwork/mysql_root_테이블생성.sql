@@ -38,9 +38,9 @@ insert into person values (null,'이효리','AB',39,now(),now());
 insert into person values (null,'손진아','B',29,now(),now());
 
 -- 각종 조회 연습
-select num,name,age from person order by age asc;
-select num,name,age from person order by age desc;
-select * from person where age>=20 and age<=30;
+select num,name,age from person order by age asc; -- 오름차순 (asc 생략가능)
+select num,name,age from person order by age desc; -- 내림차순
+select * from person where age>=20 and age<=30;  -- where 조건문 사용
 select * from person where age between 20 and 30;
 select * from person where blood='A' or blood='O' or blood='AB';
 select * from person where blood in ('A','O','AB');

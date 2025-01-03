@@ -1,0 +1,21 @@
+package day0103db;
+
+public class Ex3OracleJoin {
+
+	static final String ORACLE_DRIVER="oracle.jdbc.OracleDriver";
+	
+	//db에 접근하려면 url과 id ,password 가 필요하다.
+	String url="jdbc:oracle:thin:@localhost:1521/xe";
+	String username="angel";
+	String password="pw1234";
+	
+	public Ex3OracleJoin() {
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
