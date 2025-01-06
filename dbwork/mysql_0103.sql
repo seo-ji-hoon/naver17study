@@ -57,9 +57,4 @@ delete from person where num=1;
 select * from stu;
 select * from person;
 
-select blood,count(*) count,round(avg(age),1) from person
-group by blood order by count;
-
-select blood,count(*) count,round(avg(age),1) avgage from person
-group by blood order by count;
-
+select name,age,blood,hp,date_format(today,"%Y-%m-%d %H:%i") today from person;

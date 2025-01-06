@@ -1,0 +1,28 @@
+package day0106db;
+
+public class personDto {
+
+	private int num;
+	private String name;
+	private int age;
+	private String hp;
+	private String blood;
+	
+	public personDto() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public personDto(int num,String name,int age,String hp,String blood) {
+		
+		super();
+		this.num=num;
+		this.name=name;
+		this.age=age;
+		this.hp=hp;
+		this.blood=blood;
+		
+	}
+	
+	
+	
+}

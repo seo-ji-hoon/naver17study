@@ -84,5 +84,16 @@ select pow(2,3), mod(10,3) from dual; -- 2의3승에 대한 결과 / 10을 3으�
 select greatest(100,34,56,200,49) from dual; -- 가장 큰 숫자 결과
 select least(100,34,56,200,49) from dual; -- 가장 작은 숫자 결과
 
+-- 연습용 테이블 생성
+create table shop (
+	idx smallint auto_increment primary key,
+    sampum varchar(30),
+    su smallint default 1,
+    danga int,
+    ipgoday datetime);
+
+
+
+
 
 

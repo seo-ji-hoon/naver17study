@@ -1,0 +1,54 @@
+package day0106db;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.table.DefaultTableModel;
+
+public class Ex3PersonTable extends JFrame {
+	JTextField tfname,tfage,tfblood,tfhp;
+	JButton btnplus,btnDel;
+	DefaultTableModel tableModel;
+	JTable table;
+	
+	PersonModel personModel=new PersonModel(); //Person db 데이타 관리
+	
+	public Ex3PersonTable () {
+		super("person 관리");
+		this.setBounds(300, 100, 600, 400); //시작위치와 프레임 크기설정
+		this.initDesign();
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+	
+	public void initDesign() {
+		
+		JPanel p1=new JPanel();
+		tfname=new JTextField(6);
+		tfage=new JTextField(3);
+		tfblood=new JTextField(3);
+		tfhp=new JTextField(6);
+		
+		p1.add(new JLabel("이름"));
+		p1.add("tfname");
+		p1.add(new JLabel("나이"));
+		p1.add("tfage");
+		p1.add(new JLabel("혈액형"));
+		p1.add("tfblood");
+		p1.add(new JLabel("핸드폰"));
+		p1.add("tfhp");
+		
+		//p1 panel frane  상단에 추가
+		this.add("North",p1);
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

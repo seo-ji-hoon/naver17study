@@ -1,0 +1,18 @@
+package day0106db;
+
+
+import db.connect.MysqlConnect;
+
+//db 를 처리하기 위한 클래스
+public class ShopModel {
+	
+	MysqlConnect connect=new MysqlConnect();
+	
+	//전체 데이타 반환하는 메서드
+	//List 안에 vector 형태로 넣어서 반환
+	public List<Vector<String>> getAllDatas(){
+		
+		
+	}
+	
+}
