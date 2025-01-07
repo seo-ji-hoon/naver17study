@@ -3,6 +3,7 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="count"/>
 		<item value="Ex2Inheri"/>
 		<item value="getScoreGrade"/>
 		<item value="equals"/>

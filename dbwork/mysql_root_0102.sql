@@ -95,5 +95,3 @@ create table shop (
 
 
 
-
-

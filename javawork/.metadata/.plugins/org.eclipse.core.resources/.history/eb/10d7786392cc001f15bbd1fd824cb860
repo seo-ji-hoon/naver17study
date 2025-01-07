@@ -1,0 +1,30 @@
+package day0107db;
+
+public class FoodOrderDto {
+	
+	private int idx;
+	private int num;
+	private String orderName;
+	private int ordertCnt;
+	private String bookingDay;
+	
+	public FoodOrderDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public FoodOrderDto(int num, String orderName, int ordertCnt, String bookingDay) {
+		super();
+		this.num = num;
+		this.orderName = orderName;
+		this.ordertCnt = ordertCnt;
+		this.bookingDay = bookingDay;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -61,6 +61,7 @@ public class PersonModel {
 		
 		try {
 			pstmt=conn.prepareStatement(sql);
+			
 			//바인딩
 			pstmt.setString(1, dto.getName());
 			pstmt.setInt(2, dto.getAge());
