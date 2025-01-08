@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a tag image</title>
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        div.figure>marquee>figure {
+            float: left;
+            width: 110px;
+        }
+
+        div.figure>marquee>figure>figcaption {
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="">Have a <mark>Nice</mark> Day!!</marquee>
+    <!--behavior : 기본은 scroll 이외 slide,alternate-->
+    <marquee width="400" behavior="slide">집에가고싶ㅇㅓ용..</marquee>
+    <!--direction: 기본값은 left-->
+    <marquee width="400" behavior="alternate" direction="right">졸려졸려졸려졸려</marquee>
+     <!--div 커피잔-->
+    <div>
+        <a href="http://www.naver.com" target="_blank">
+            <img src="../photo/K-052.png" alt="커피잔"><b>Naver</b>
+        </a>
+    </div>
+    <!--div nate,유리잔-->
+    <div>
+        <a href="http://www.nate.com" target="_blank">
+            <figure>
+                <img src="../photo/K-041.png" alt="음식">
+                <figcaption style="padding-left: 35px;">
+                    <b>nate</b>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="../photo/K-049.png" target="_blank">
+            <figure>
+                <img src="../photo/K-049.png" alt="유리잔">
+                <figcaption>
+                    <b>예쁜 유리잔</b>
+                </figcaption>
+            </figure>
+        </a>
+    </div>
+    <hr>
+    <!--div figure-->
+    <div class="figure">
+        <marquee>
+        <figure>
+            <img src="../photo/17.jpg" alt="신민아">
+            <figcaption>
+                <b>신민아</b>
+            </figcaption>
+        </figure>           
+        <figure>
+            <img src="../photo/18.jpg" alt="신세경">
+            <figcaption>
+                <b>신세경</b>
+            </figcaption>
+        </figure>           
+        <figure>
+            <img src="../photo/15.jpg" alt="설현">
+            <figcaption>
+                <b>설현</b>
+            </figcaption>
+        </figure>    
+    </marquee>       
+    </div>
+</body>
+</html>

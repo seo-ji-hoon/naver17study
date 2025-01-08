@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A tag 연습</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gaegu&family=Jua&family=Nanum+Pen+Script&family=Playwrite+AU+SA:wght@100..400&family=Single+Day&display=swap" rel="stylesheet">
+
+    <style>
+        /*body 아래의 모든 태그 적용*/
+        body * {
+            font-family: 'Jua';
+        }
+
+        /*방문하지 않은 링크색상*/
+        a:link {
+            color: black;
+            text-decoration: none; /*a링크에 밑줄없앰*/
+        }
+        /*한번이라도 방문했던 링크스타일*/
+        a:visited {
+            color: gray;
+            text-decoration: none;
+        }
+        /*마우스를 하이퍼링크에 올렸을때의 스타일*/
+        a:hover { 
+            text-decoration: underline; /*커서 올리면 텍스트에 밑줄*/
+            color: brown;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h2>A Tag Study</h2>
+    <div style="font-size: 20px;">
+        <a href="http://www.naver.com">네이버</a><br><br>
+        <!--target="_blank" => 새창으로 열기-->
+        <a href="http://www.naver.com" target="_blank">네이버</a><br><br>
+        <!--target="_new" => 새창으로 열기-->
+        <a href="http://m.nate.com" target="_new">네이트</a><br><br>
+
+        <a href="http://m.nate.com" target="_new">네이트</a><br><br>
+        <a href="http://www.google.com" target="_new">구글</a><br><br>
+        
+        <div style="margin-top: 20px;">
+
+            <ul>
+                <!--2025-01-07-->
+                <li><h3>2025-01-07 수업</h3></li>
+                <ol>
+                    <li>
+                        <a href="../day0107/ex1_htmltag.html" target="_blank">첫번째 예제</a>
+                    </li>
+                    <li>
+                        <a href="../day0107/ex2_style.html" target="_blank">두번째 예제</a>
+                    </li>
+                </ol>
+
+                <!--2025-01-08-->
+                <li><h3>2025-01-08 수업</h3></li>
+                <ol>
+                    <li>
+                        <a href="../day0108/ex1_classstyle.html" target="_blank">첫번째예제</a>
+                    </li>
+                    <li>
+                        <a href="../day0108/ex2_image.html" target="_blank">두번째예제</a>
+                    </li>
+                    <li>
+                        <a href="../day0108/ex3_imagepre.html" target="_blank">세번째예제</a>
+                    </li>
+                    <li>
+                        <a href="../day0108/ex4_olul.html" target="_blank">네번째예제</a>
+                    </li>
+                    <li>
+                        <a href="../day0108/ex5_ul가로메뉴.html" target="_blank">다섯번째예제</a>
+                    </li>
+                </ol>
+
+            </ul>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
