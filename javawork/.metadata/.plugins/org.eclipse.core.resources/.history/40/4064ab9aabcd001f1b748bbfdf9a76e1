@@ -1,0 +1,16 @@
+package bookjava;
+
+public class Ex3If {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String userId="m111";
+		String userPw="1111";
+		
+		//userId가 m111이면
+		if(userId.equals("m111")) {
+			System.out.println("아이디가 일치합니다.");
+		}
+	}
+
+}

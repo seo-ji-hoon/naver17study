@@ -1,0 +1,13 @@
+package bookjava;
+
+public class Ex1If {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 숫자형 int 정수 score에 93을 입력
+		int score=90;
+		
+		
+	}
+
+}
