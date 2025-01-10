@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>속성변경</title>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gaegu&family=Jua&family=Nanum+Pen+Script&family=Playwrite+AU+SA:wght@100..400&family=Single+Day&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body * {
+                font-family: 'Jua';
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" style="margin: 50px 100px;">
+            <img src="../photo/15.jpg" width="200" style="border: 5px solid pink;">           
+        </div>
+        <div style="margin: 20px 130px;">
+            <button type="button" class="btn btn-success btn-sm" id="btnsamll">점점작게</button>
+            <button type="button" class="btn btn-success btn-sm" id="btnlarge">점점크게</button>
+        </div>
+        <script>
+            //버튼을 클릭시 현재 크기보다 20씩 점점작게 / 점점크게 변경
+            let photo=document.querySelector("div.box>img");
+
+           document.getElementById("btnsamll").onclick=function(){
+                //alert("small");
+                //현재너비
+                let w=photo.getAttribute("width");
+                //alert(`값=${w},타입=`+typeof(w)); //값=200, 타입=string
+                //-일 경우 굳이 타입변환을 안해도된다.
+                w-=20;
+                //다시 너비 속성변경
+                photo.setAttribute("width",w);
+           }
+           document.getElementById("btnlarge").onclick=function(){
+            //    alert("large");
+                //현재너비
+                let w=photo.getAttribute("width");
+
+                //w+=20; //200020 (더하기 경우는 srting 타입 경우 나열이 된다.)
+                w=Number(w)+20; //숫자형으로 변환해야함.(parsonInt 또는 Number 사용)
+                //w=parseInt(w)+20;
+
+                photo.setAttribute("width",w);
+            }
+        </script>
+        <hr>
+        <div class="box2" style="margin: 50px 10px;">
+            <img src="../photo2/25.jpg" style="width: 200px;">
+        </div>
+        <div style="margin: 20px 50px;">
+            <button type="button" class="btn btn-success btn-sm" id="btnsamll2">점점작게</button>
+            <button type="button" class="btn btn-success btn-sm" id="btnlarge2">점점크게</button>
+        </div>
+        <script>
+            //사진의 요소값을 얻어보자
+            let photo2=document.querySelector("div.box2>img");
+
+            document.getElementById("btnsamll2").onclick=function(){
+                //photo2 style 의 width 값을 얻어보자
+                let w=photo2.style.width; //200px을 반환
+                //뒤의 px을 뗴고 10진수 숫자만 얻기
+                let w2=parseInt(w); //10진수 숫자만 얻기
+               // let w2=parseInt(w,10); //10진수 숫자만 얻기 (10)은 디폴트값으로 생략가능
+                //alert(w2);
+                w2-=20;
+                //style의 width 변경
+                photo2.style.width=w2+"px";
+            }
+            document.getElementById("btnlarge2").onclick=function(){
+        
+                let w2=parseInt(photo2.style.width)+20;
+                photo2.style.width=w2+"px";
+                
+            }
+
+        </script>
+
+
+    </body>
+</html>

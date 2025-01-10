@@ -1,0 +1,10 @@
+package bookjava;
+
+public class Ex6continue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
