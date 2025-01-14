@@ -54,7 +54,7 @@
                 //let rndSu=parseInt(Math.random()*100)+1;
                 for(let i=0; i<num.length; i++){
                     
-                    num[i]=parseInt(Math.random()*45)+1;
+                    num[i]=parseInt(Math.random()*45)+1; //1~45 사이의 난수
 
                     for(let j=0; j<i; j++){
 
@@ -79,12 +79,16 @@
                 }
 
                 //위의 변수 lotto 에 정렬된 숫자를 넣어준다?
-                let a = document.querySelectorAll(".mylotto>.lotto");
+                let a = document.querySelectorAll(".mylotto>.lotto"); //#방법2
                 for(let i=0; i<num.length; i++){
+                    
+                    //for(let i=0; i<lotto.length; i++){ #방법1
+
+                   // lotto[i].innerHTML=num[i] #방법1
 
                     // document.querySelectorAll(".mylotto>.lotto")[i].innerHTML=
-                    // `${num[i]}`;
-                    a[i].innerHTML=`${num[i]}`;
+                    // `${num[i]}`; #방법2
+                    a[i].innerHTML=`${num[i]}`; //# 방법3
                     
                 }
                 
