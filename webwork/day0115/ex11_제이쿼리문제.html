@@ -9,10 +9,11 @@
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
         <style>
             body * {
+
                 font-family: 'Jua';
                 
             }
-
+            
         </style>
     </head>
     <body>
@@ -41,17 +42,19 @@
             //.shop 에 마우스를 올리면 사진을 추출해서 .largephoto 의 사진을 변경하시오
             $(".shop").mouseover(function(){
               //$(this).attr("src",$(".largephoto").attr("src","../photo/10.jpg"));
-                $(this).attr("src",".largephoto").attr("src");
+                $(".largephoto").attr("src", $(this).attr("src"));
             });
             
-            
-
-
-
             
             //문제3 after / append
             //.largephoto 에 마우스를 올리면 해당 이미지 아래에
             //"안녕하세요 !!" 라는 메세지를 추가하시오.
+            $(".largephoto").mouseover(function(){
+                let s =`<div>안녕하세요?</div>`;
+                $(".largephoto").after(s);
+            });
+
         </script>
+        
     </body>
 </html>
