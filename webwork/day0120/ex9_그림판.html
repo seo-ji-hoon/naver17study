@@ -30,10 +30,11 @@
         </style>
 
         <script>
+            let ctx;
             $(function(){
                 let draw=false; //마우스 클릭시 true,true 일 동안만 그림 그리기 위한 변수
                 let can=document.getElementById("can");
-                let ctx=can.getContext("2d");
+                ctx=can.getContext("2d");
                 let preX,preY; //마우스 이동시 직전좌표를 저장할 변수
 
                 //초기펜 색상
@@ -100,5 +101,26 @@
             <div style="background-color: rgb(255, 0, 144);"></div>
             <div style="background-color: rgb(247, 151, 192);"></div>
         </div>
+        <hr style="clear: both;">
+        <button type="button" id="btn1">화면초기화</button>
+        <button type="button" id="btn2">지워</button>
+        <button type="button" id="btn3">별도보관</button>
+        <hr class="save">
+
+        <script>
+            $("#btn1").click(function(){
+                ctx.clearRect(0,0,500,500);
+            });
+            $("#btn2").click(function(){
+                //선색을 흰색으로
+                ctx.strokeStyle="#ffffff";
+            });
+            $("#btn3").click(function(){
+                let myimg=`
+                    <img src="${can.toDataURL()}">
+                `;
+                $("hr.save").after(myimg);
+            });
+        </script>
     </body>
 </html>
