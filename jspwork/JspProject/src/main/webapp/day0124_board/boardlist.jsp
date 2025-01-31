@@ -88,6 +88,17 @@
 								white-space: nowrap; display: block; max-width: 200px;">
 								<a href="./contentdetail.jsp?num=<%=dto.getNum()%>">
 									<%=dto.getSubject() %>
+									<%
+									SimpleAnswerDao adao=new SimpleAnswerDao();
+									int acount=adao.getAnswerByNum(dto.getNum()).size();
+									
+									if (acount>0){
+										
+									
+									%>
+									&nbsp;
+									<span style="color: red;">(<%=acount %>)</span>
+									<% }%>
 								</a>
 								</div>
 							</td>						
