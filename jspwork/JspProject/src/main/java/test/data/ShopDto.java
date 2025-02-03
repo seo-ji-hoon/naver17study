@@ -1,6 +1,7 @@
 package test.data;
 
 public class ShopDto {
+	private int idx;
 	private String sang;
 	private int su;
 	private int dan;
@@ -9,11 +10,22 @@ public class ShopDto {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ShopDto(String sang, int su, int dan) {
+	public ShopDto(int idx,String sang, int su, int dan) {
 		super();
+		this.idx = idx;
 		this.sang = sang;
 		this.su = su;
 		this.dan = dan;
+	}
+	
+	
+	
+	public int getIdx() {
+		return idx;
+	}
+
+	public void setIdx(int idx) {
+		this.idx = idx;
 	}
 
 	public String getSang() {

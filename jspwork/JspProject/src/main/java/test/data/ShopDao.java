@@ -21,7 +21,7 @@ public List<ShopDto> getAllDatas(){
 		PreparedStatement pstmt=null;
 		ResultSet rs=null;
 		
-		String sql="select * from shop order by idx desc";
+		String sql="select * from shop order by idx";
 		
 		conn=connect.getConnection();
 		
@@ -33,6 +33,7 @@ public List<ShopDto> getAllDatas(){
 			while(rs.next()) {
 				
 				ShopDto dto = new ShopDto();
+				dto.setIdx(rs.getInt("idx"));
 				dto.setSang(rs.getString("sampum"));
 				dto.setSu(rs.getInt("su"));
 				dto.setDan(rs.getInt("dan"));

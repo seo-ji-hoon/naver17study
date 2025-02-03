@@ -12,46 +12,35 @@
 			font-family: 'Jua';
 		}
 	</style>
-	<script type="text/javascript">
-		$(function(){
-			list();
-		});
-		
-		function list(){
-			$.ajax ({
-				type:"get",
-				dataType:"xml",
-				url:"./shopxml.jsp",
-				success:function(res){
-					
-					let s="";
-					s+=`<table class="table table-bordered" style="width:400px;">`;
-					$(res).find().each(function(idx,ele){
-						
-					let e=$(ele);
-					
-					s+=`
-						<tr>
-							<td>
-							  상품:${e.find("sang").text()}
-							  수량:${e.find("su").text()}
-							  단가:${e.find("dan").text()}
-							</td>
-						</tr>
-					
-					`;
-					});
-					s+="</table>";
-					$(".shoplist").html(s);
-				}
-			});
-			
-		}
-	</script>
 </head>
 <body>
-<div style="margin: 20px;">
-	<div class="shoplist">11</div>
-</div>
+	<div style="margin: 30px;">
+		<input type="text" id="myname" style="width: 200px;" placeholder="검색할 이름 입력">
+		<button type="button" id="btnsearch">검색결과</button>
+		
+		<div class="result" style="margin-top: 30px;">123</div>
+	</div>
+	<script type="text/javascript">
+		$("#btnsearch").click(function(){
+			//입력할 이름
+			let myname=$("#myname").val();
+			
+			$.ajax({
+				type:"get",
+				dataType:"json",
+				url:"./ex2_datareceive.jsp",
+				//data:"myname="+myname, //방법1
+				data:{"myname":myname}, //방법2
+				success:function(res){
+					let s=`
+						이름 : ${res.myname}<br>
+						주소 : ${res.address}<br>
+						핸드폰 : ${res.hp}<br>
+					`;
+					$(".result").html(s);
+				}
+			});
+		});
+	</script>
 </body>
 </html>
