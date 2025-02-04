@@ -31,11 +31,11 @@
 %>
 <%
 
-	list.add(new ShopDto("사과",3,2000));
-	list.add(new ShopDto("바나나",1,1000));
-	list.add(new ShopDto("오렌지",5,900));
-	list.add(new ShopDto("딸기",2,5000));
-	list.add(new ShopDto("참외",6,2500));
+	//list.add(new ShopDto("사과",3,2000));
+	//list.add(new ShopDto("바나나",1,1000));
+	//list.add(new ShopDto("오렌지",5,900));
+	//list.add(new ShopDto("딸기",2,5000));
+	//list.add(new ShopDto("참외",6,2500));
 
 %>
 <body>
